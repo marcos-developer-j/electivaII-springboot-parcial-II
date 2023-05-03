@@ -33,7 +33,7 @@ public class ComplementaryActivity {
 	public ComplementaryActivity() {
 
 	}
-	public ComplementaryActivity(int id, String name, String description, LocalDate dateStart, LocalDate dateEnds) {
+	public ComplementaryActivity(Integer id, String name, String description, LocalDate dateStart, LocalDate dateEnds) {
 		super();
 		this.id = id;
 		this.name = name;

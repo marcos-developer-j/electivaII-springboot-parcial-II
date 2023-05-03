@@ -17,7 +17,7 @@ import jakarta.persistence.Table;
 public class Teacher {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
+	private Integer id;
     @Column( length = 100, nullable = false)
 	private String fullname;
     @Column( length = 20, nullable = false)

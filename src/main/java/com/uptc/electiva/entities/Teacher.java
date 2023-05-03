@@ -33,8 +33,7 @@ public class Teacher {
 	public Teacher() {
 
 	}
-	public Teacher(int id, String fullname, String cc, String phone, String address,LocalDate birthday) {
-		this.id = id;
+	public Teacher(String fullname, String cc, String phone, String address,LocalDate birthday) {
 		this.fullname = fullname;
 		this.cc = cc;
 		this.phone = phone;

@@ -18,7 +18,7 @@ import jakarta.persistence.Table;
 public class ComplementaryActivity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-	private int id;
+	private Integer id;
     @Column( length = 100, nullable = false)
 	private String name;
     @Column( length = 250, nullable = false)
